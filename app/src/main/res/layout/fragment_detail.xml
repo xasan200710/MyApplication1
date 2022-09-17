@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detailChracter.DetailFragment">
+
+    <ImageView
+        android:id="@+id/imgDetailCharacter"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_name_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/name1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/imgDetailCharacter"
+        app:layout_constraintTop_toBottomOf="@id/imgDetailCharacter" />
+
+    <TextView
+        android:id="@+id/txt_status_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/status1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/txt_name_detail"
+        app:layout_constraintTop_toBottomOf="@id/txt_name_detail" />
+
+    <TextView
+        android:id="@+id/txt_Gender_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/gender"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/txt_status_detail"
+        app:layout_constraintTop_toBottomOf="@id/txt_status_detail" />
+
+    <TextView
+        android:id="@+id/txt_type_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/type1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/txt_Gender_detail"
+        app:layout_constraintTop_toBottomOf="@id/txt_Gender_detail" />
+
+    <TextView
+        android:id="@+id/txt_location_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/location"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/txt_type_detail"
+        app:layout_constraintTop_toBottomOf="@id/txt_type_detail" />
+
+    <TextView
+        android:id="@+id/txt_name_detail_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/name"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@id/txt_name_detail"
+        app:layout_constraintTop_toBottomOf="@id/imgDetailCharacter" />
+
+
+    <TextView
+        android:id="@+id/txt_status_detail_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/status"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@id/txt_status_detail"
+        app:layout_constraintTop_toBottomOf="@id/txt_name_detail_one" />
+
+    <TextView
+        android:id="@+id/txt_Gender_detail_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/gender1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@id/txt_Gender_detail"
+        app:layout_constraintTop_toBottomOf="@id/txt_status_detail_one" />
+
+    <TextView
+        android:id="@+id/txt_type_detail_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/type"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@id/txt_type_detail"
+        app:layout_constraintTop_toBottomOf="@id/txt_Gender_detail_one" />
+
+    <TextView
+        android:id="@+id/txt_location_detail_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/location1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@id/txt_location_detail"
+        app:layout_constraintTop_toBottomOf="@id/txt_type_detail_one" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

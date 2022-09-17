@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application 1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="todo">TODO</string>
+    <string name="name">Name</string>
+    <string name="status">Status</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type">type</string>
+    <string name="dimension">dimension</string>
+    <string name="date">airDate</string>
+    <string name="episode">episode</string>
+    <string name="name1">Name:</string>
+    <string name="location">Location:</string>
+    <string name="location1">Location</string>
+    <string name="status1">Status:</string>
+    <string name="gender">Gender:</string>
+    <string name="gender1">Gender</string>
+    <string name="type1">Type:</string>
+</resources>
